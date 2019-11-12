@@ -10,5 +10,5 @@ def input_to_index(user_input)
 end
 board = [" ", " ", " "]
 def move(board, index, character)
-  board[user_input.to_i - 1] = value
+  board[index] = value
 end
